@@ -1,0 +1,41 @@
+{
+    "Cloud Kingdom LE":
+    {
+        "filename" : "cloud_kingdom_le.png"
+    },
+
+    "Daybreak LE":
+    {
+        "filename" : "daybreak_le.png"
+    },
+
+    "Ohana LE":
+    {
+        "filename" : "ohana_le.png"
+    },
+
+    "Antiga Shipyard":
+    {
+        "filename" : "antiga_shipyard.png"
+    },
+
+    "Condemned Ridge":
+    {
+        "filename" : "condemned_ridge.png"
+    },
+
+    "Entombed Valley":
+    {
+        "filename" : "entombed_valley.png"
+    },
+
+    "Shakuras Plateau":
+    {
+        "filename" : "shakuras_plateau.png"
+    },
+
+    "Tal'Darim Altar":
+    {
+        "filename" : "taldarim_altar.png"
+    }
+}

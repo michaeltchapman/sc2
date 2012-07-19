@@ -1,0 +1,17 @@
+<head>
+  <title>SC2 Replay Heatmap Generator</title>
+</head>
+
+<p> paste the url of a Battle.Net replay here:</p>
+<form action={{ url_for('replay_detail') }}>
+  <input type="text" name="replay" value="http://sc2rep.com/replays/download/id/16288" />
+  <input type="submit" value="Submit"/>
+</form>
+
+<p> Map pictures from the ever-awesome <a href="http://wiki.teamliquid.net">Liquidpedia</a>
+
+{% for map in data %}
+<p>{{ map }}</p>
+{% endfor %}
+
+

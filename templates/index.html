@@ -1,9 +1,9 @@
 <head>
-  <title>SC2 Replay Heatmap Generator</title>
+  <title>"SC2 Replay Heatmap Generator"</title>
 </head>
 
 <p> paste the url of a Battle.Net replay here:</p>
-<form action={{ url_for('replay_detail') }}>
+<form action={{ url_for('replay_detail') }} method='POST'>
   <input type="text" name="replay" value="http://sc2rep.com/replays/download/id/16288" />
   <input type="submit" value="Submit"/>
 </form>
